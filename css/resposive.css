@@ -1,0 +1,112 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .banner img {
+    visibility: hidden;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .banner img {
+    visibility: hidden;
+  }
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0px !important;
+    margin-bottom: 0rem !important;
+    font-weight: 500;
+    line-height: 0.9 !important;
+  }
+  .tasty-burger p {
+    padding: 10px 80px;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .form-group button {
+    padding: 12px 40px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .navbar-collapse {
+    background-color: #ffc045;
+    align-items: left !important;
+  }
+  .a-nav {
+    visibility: hidden;
+  }
+  .nav-item-custom {
+    margin-left: 0;
+  }
+  .bs span {
+    font-size: 1rem;
+  }
+  .bs h1 {
+    font-size: 4rem;
+  }
+  .banner img {
+    visibility: hidden;
+  }
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0px !important;
+    margin-bottom: 0rem !important;
+    font-weight: 500;
+    line-height: 0.9 !important;
+  }
+  .tasty-burger h1 {
+    font-size: 32px;
+  }
+  .tasty-burger p {
+    padding: 10px 20px;
+  }
+  .burger-1 img {
+    overflow: hidden !important;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .form-group button {
+    padding: 12px 10px;
+  }
+  .form-group button a {
+    font-size: 14px;
+  }
+  .fe-item {
+    text-align: center;
+  }
+  .footer-icon {
+    text-align: center;
+  }
+  .footer-itme span {
+    font-size: 16px;
+  }
+  .fa-envelope::before {
+    font-size: 16px;
+  }
+}
